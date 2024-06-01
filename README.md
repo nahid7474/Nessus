@@ -50,7 +50,7 @@ Choose the target as 10.0.2.15. Click on the "Launch" button to start the scan.
 <img src="https://github.com/nahid7474/Photos/blob/main/NewScan3.png"/> 
 <img src="https://github.com/nahid7474/Photos/blob/main/NewScan4.png"/> 
 
-After the scan completes, click on the scan name to view the results, associted vulnerabilities.
+After the scan completes, click on the scan name to view the results, all the open and vlnerable ports as expected.
 
 <img src="https://github.com/nahid7474/Photos/blob/main/NewScan5.png"/> 
 
