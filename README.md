@@ -36,7 +36,7 @@ Now I will confugure the on demand scan to run.
 
 
 Configure Scanning:
-
+-------------------------------------------------------------
 I will configure two scans. 
 First scan will only focus on open ports and associated vulnerabilities on my host 10.0.2.15
 The second scan will do a more robust scan on the same machine. 
@@ -45,26 +45,53 @@ First Scan:
 Click on the "Scans" tab in the top menu bar and then click on "New Scan" to create a new scan. Enter a name and optionally provide a description.
 Choose the target as 10.0.2.15. Click on the "Launch" button to start the scan.
 
+<img src="https://github.com/nahid7474/Photos/blob/main/NewScan.png"/> 
+<img src="https://github.com/nahid7474/Photos/blob/main/NewScan2.png"/> 
+<img src="https://github.com/nahid7474/Photos/blob/main/NewScan3.png"/> 
+<img src="https://github.com/nahid7474/Photos/blob/main/NewScan4.png"/> 
 
 After the scan completes, click on the scan name to view the results, associted vulnerabilities.
 
+<img src="https://github.com/nahid7474/Photos/blob/main/NewScan5.png"/> 
+
 Configure Second Scan: 
 Click on the "Scans" tab in the top menu bar and then click on "New Scan".
-Enter a name and optionally provide a description. THis time the type of the scan is basic network scan. Choose the target as 10.0.2.15. Click on the "Launch" button to start the scan.
+Enter a name and optionally provide a description. 
+THis time the type of the scan is basic network scan. Choose the target as 10.0.2.15. 
+Click on the "Launch" button to start the scan.
+
+<img src="https://github.com/nahid7474/Photos/blob/main/nessus10.png"/> 
+
 Wait for some time to finish the scan. It took 26 minutes to finish the scan. 
 
+<img src="https://github.com/nahid7474/Photos/blob/main/nessus8.png"/>
 
 Similar to the first scan, Nessus is showing the results, severity, CVSS score, remediations etc.
+<img src="https://github.com/nahid7474/Photos/blob/main/nessus12.png"/>
+
+I will now filter only critical vulnerability based on the condition below.
+<img src="https://github.com/nahid7474/Photos/blob/main/filters.png"/>
+
+I get one critical vulnerability from the outdated/vulnerable internet explorer that I installed earlier. 
+
+<img src="https://github.com/nahid7474/Photos/blob/main/critical.png"/>
+
+Clicking on it shows me more information about this vulnerability and steps to foloow to resolve/remediate it. 
+<img src="https://github.com/nahid7474/Photos/blob/main/vulDetails.png"/>
 
 
 Generate Reports:
+------------------------------
 
-Nessus generates comprehensive reports summarizing the scan results. 
-Here is the report I have produced for reference. <a href="https://github.com/nahid7474/Nessus/blob/main/Nessus%20Report.pdf">Nessus Report</a> 
+Nessus offers the pdf export option with great details, like this one below from my scan on host 10.0.2.15
+<a href="https://github.com/nahid7474/Nessus/blob/main/Nessus%20Report.pdf">Nessus Report</a> 
+This report includes 3 Critical, 2 High, 2 Medium and 132 Informational vulnerabilities.  
 
 Remediate Vulnerabilities:
 
-I notice that the remediation action is: 
+I notice one of the remediation action is: 
 Security Updates for Microsoft .NET Framework (April 2024)
+
+<a href="https://github.com/nahid7474/Nessus/blob/main/Nessus%20Report.pdf">Nessus Report</a>
 
 Now I will install the latest version of .NET Framework and then redo the scan to make sure the vulnerability is mitigated. 
