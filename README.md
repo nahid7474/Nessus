@@ -84,7 +84,9 @@ Generate Reports:
 ------------------------------
 
 Nessus offers the pdf export option with great details, like this one below from my scan on host 10.0.2.15
+
 <a href="https://github.com/nahid7474/Nessus/blob/main/Nessus%20Report.pdf">Nessus Report</a> 
+
 This report includes 3 Critical, 2 High, 2 Medium and 132 Informational vulnerabilities.  
 
 Remediate Vulnerabilities:
