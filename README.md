@@ -97,3 +97,10 @@ Security Updates for Microsoft .NET Framework (April 2024)
 <img src="https://github.com/nahid7474/Photos/blob/main/Remediation.png"/>
 
 Now I will install the latest version of .NET Framework, remove the old internet explorer and then redo the scan to make sure the vulnerability is mitigated. 
+
+<img src="https://github.com/nahid7474/Photos/blob/main/remedy1.png"/>
+<img src="https://github.com/nahid7474/Photos/blob/main/remedy2.png"/>
+
+These two critical vulnerabilities no more exist, confirming that they are successfully mitigated! 
+
+<img src="https://github.com/nahid7474/Photos/blob/main/remedy2.png"/>
