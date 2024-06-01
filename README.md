@@ -37,24 +37,34 @@ Now I will confugure the on demand scan to run.
 
 Configure Scanning:
 
-Click on the "Scans" tab in the top menu bar and then click on "New Scan" to create a new scan.
-Enter a name for your scan and optionally provide a description.
-Choose the target for your scan. You can specify individual IP addresses, ranges, or hostnames.
-Configure other scan settings such as scan type (e.g., Basic Network Scan, Web Application Tests), scan policy (e.g., Basic Network Scan, Web Application Tests), and schedule (if needed).
-Start the Scan:
+I will configure two scans. 
+First scan will only focus on open ports and associated vulnerabilities on my host 10.0.2.15
+The second scan will do a more robust scan on the same machine. 
 
-After configuring the scan settings, click on the "Launch" button to start the scan.
-Monitor Scan Progress:
+First Scan:
+Click on the "Scans" tab in the top menu bar and then click on "New Scan" to create a new scan. Enter a name and optionally provide a description.
+Choose the target as 10.0.2.15. Click on the "Launch" button to start the scan.
 
-Once the scan is launched, you can monitor its progress in the "Scans" tab. Nessus will display information such as the current status, number of hosts scanned, vulnerabilities found, etc.
-Review Scan Results:
 
-After the scan completes, click on the scan name to view the detailed results.
-Nessus will provide a list of vulnerabilities found, along with severity ratings, affected hosts, and potential remediation steps.
-You can filter and sort the results to focus on specific vulnerabilities or hosts.
+After the scan completes, click on the scan name to view the results, associted vulnerabilities.
+
+Configure Second Scan: 
+Click on the "Scans" tab in the top menu bar and then click on "New Scan".
+Enter a name and optionally provide a description. THis time the type of the scan is basic network scan. Choose the target as 10.0.2.15. Click on the "Launch" button to start the scan.
+Wait for some time to finish the scan. It took 26 minutes to finish the scan. 
+
+
+Similar to the first scan, Nessus is showing the results, severity, CVSS score, remediations etc.
+
+
 Generate Reports:
 
-Nessus allows you to generate comprehensive reports summarizing the scan results. You can customize the report format, content, and distribution options according to your needs.
+Nessus generates comprehensive reports summarizing the scan results. 
+Here is the report I have produced for reference. 
+
 Remediate Vulnerabilities:
 
-Once you've reviewed the scan results, take appropriate actions to remediate the identified vulnerabilities. This may involve applying patches, updating software, or implementing configuration changes.
+I notice that the remediation action is: 
+Security Updates for Microsoft .NET Framework (April 2024)
+
+Now I will install the latest version of .NET Framework and then redo the scan to make sure the vulnerability is mitigated. 
