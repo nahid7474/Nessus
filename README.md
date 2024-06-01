@@ -101,6 +101,6 @@ Now I will install the latest version of .NET Framework, remove the old internet
 <img src="https://github.com/nahid7474/Photos/blob/main/remedy1.png"/>
 <img src="https://github.com/nahid7474/Photos/blob/main/remedy2.png"/>
 
-These two critical vulnerabilities no more exist, confirming that they are successfully mitigated! 
+No critical and high vulnerabilities exist anymore, confirming that they are successfully mitigated! 
 
-<img src="https://github.com/nahid7474/Photos/blob/main/remedy2.png"/>
+<img src="https://github.com/nahid7474/Photos/blob/main/remedy3.png"/>
