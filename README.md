@@ -60,7 +60,7 @@ Similar to the first scan, Nessus is showing the results, severity, CVSS score, 
 Generate Reports:
 
 Nessus generates comprehensive reports summarizing the scan results. 
-Here is the report I have produced for reference. 
+Here is the report I have produced for reference. <a href="https://github.com/nahid7474/Nessus/blob/main/Nessus%20Report.pdf">Nessus Report</a> 
 
 Remediate Vulnerabilities:
 
