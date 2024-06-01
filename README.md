@@ -92,6 +92,6 @@ Remediate Vulnerabilities:
 I notice one of the remediation action is: 
 Security Updates for Microsoft .NET Framework (April 2024)
 
-<a href="https://github.com/nahid7474/Nessus/blob/main/Nessus%20Report.pdf">Nessus Report</a>
+<img src="https://github.com/nahid7474/Photos/blob/main/Remediation.png"/>
 
-Now I will install the latest version of .NET Framework and then redo the scan to make sure the vulnerability is mitigated. 
+Now I will install the latest version of .NET Framework, remove the old internet explorer and then redo the scan to make sure the vulnerability is mitigated. 
