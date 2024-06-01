@@ -11,13 +11,19 @@ Download and Install Nessus:
 Firstly I went to the Tenable website from my browser here https://www.tenable.com/products/nessus/nessus-essentials and sign up.
 THen I downloaded the Nessus Essentials installer for my Windows 10 64bit machine.
 
+<img src="https://github.com/nahid7474/Photos/blob/main/nessus.png"/> 
+
 Ran the installer and followed the on-screen instructions to install Nessus it.
 
-
+<img src="https://github.com/nahid7474/Photos/blob/main/nessus2.png"/> 
 Once Nessus is installed, I launched the Nessus application by Opening my web browser and navigate to https://localhost:8834. 
+<img src="https://github.com/nahid7474/Photos/blob/main/nessus3.png"/>
 Click on the prompt "Connect via SSL"
 
+<img src="https://github.com/nahid7474/Photos/blob/main/nessus4.png"/>
 Get the activation code with my business account and save the activation code somewhere safe for later user. 
+
+<img src="https://github.com/nahid7474/Photos/blob/main/nessus5.png"/>
 
 This will now install and configure all the requird plugins to run Nessus. Give it some time to finish this task.
 
