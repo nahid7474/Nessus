@@ -27,17 +27,11 @@ This has installed and configured all the requird plugins to run Nessus. Give it
 
 <img src="https://github.com/nahid7474/Photos/blob/main/nessus4.png"/>
 
-
-<img src="https://github.com/nahid7474/Photos/blob/main/nessus5.png"/>
-
-
-
-
 Once done, Nessus is ready to take on my target machine/netwok/website.
 In this example, I will add my virtual machine's IP which is 10.0.2.15 and Nessus will find this host on the next window.
-Now I will confugure the on demand scan to run. 
+Now I will confugure the on demand scan to run.
 
-
+<img src="https://github.com/nahid7474/Photos/blob/main/nessus5.png"/>
 
 
 
