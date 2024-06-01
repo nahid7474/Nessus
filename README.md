@@ -1,20 +1,20 @@
 Summary of this project:
 ---------------------------------------------------------------------------
-In this project, I will perform vulnerability scans using Nessus Essentials on my Windows 10 virtual machine sitting on my Oracle IrtualBox.
-This involves downloading and installing Nessus from the Tenable website. Launch Nessus and access its web interface via localhost. 
+In this project, I will perform vulnerability scans using Nessus Essentials on my Windows 10 virtual machine sitting on my Oracle VirtualBox.
+This involves downloading and installing Nessus from the Tenable website, launch Nessus and access its web interface via localhost. 
 Log in and configure a new scan by specifying targets and scan settings. Start the scan and monitor its progress. 
-Once completed, I will scan results for identified vulnerabilities and then generate reports and finally take necessary actions to remediate vulnerabilities.
+Once completed, I will will through scan results for identified vulnerabilities and then generate reports and finally take necessary actions to remediate vulnerabilities.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Download and Install Nessus:
  
-Go to the Tenable website from my browser here https://www.tenable.com/products/nessus/nessus-essentials and sign up.
-Download the Nessus Essentials installer for Windows.
+Firstly I went to the Tenable website from my browser here https://www.tenable.com/products/nessus/nessus-essentials and sign up.
+THen I downloaded the Nessus Essentials installer for my Windows 10 64bit machine.
 
-Run the installer and follow the on-screen instructions to install Nessus on my Windows 10 virtual machine.
+Ran the installer and followed the on-screen instructions to install Nessus it.
 
 
-Once Nessus is installed, launch the Nessus application by Opening my web browser and navigate to https://localhost:8834. 
+Once Nessus is installed, I launched the Nessus application by Opening my web browser and navigate to https://localhost:8834. 
 Click on the prompt "Connect via SSL"
 
 Get the activation code with my business account and save the activation code somewhere safe for later user. 
