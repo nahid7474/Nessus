@@ -1,4 +1,5 @@
 Summary of this project:
+---------------------------------------------------------------------------
 In this project, I will perform vulnerability scans using Nessus Essentials on my Windows 10 virtual machine sitting on my Oracle IrtualBox.
 This involves downloading and installing Nessus from the Tenable website. Launch Nessus and access its web interface via localhost. 
 Log in and configure a new scan by specifying targets and scan settings. Start the scan and monitor its progress. 
