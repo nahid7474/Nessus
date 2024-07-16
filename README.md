@@ -37,12 +37,12 @@ Now I will confugure the on demand scan to run.
 
 Configure Scanning:
 -------------------------------------------------------------
-I will configure two scans. 
-First scan will only focus on open ports and associated vulnerabilities on my host 10.0.2.15
+I will configure two scans.  
+First scan will only focus on open ports and associated vulnerabilities on my host 10.0.2.15  
 The second scan will do a more robust scan on the same machine. 
 
 First Scan:
-Click on the "Scans" tab in the top menu bar and then click on "New Scan" to create a new scan. Enter a name and optionally provide a description.
+Click on the "Scans" tab in the top menu bar and then click on "New Scan" to create a new scan. Enter a name and optionally provide a description.  
 Choose the target as 10.0.2.15. Click on the "Launch" button to start the scan.
 
 <img src="https://github.com/nahid7474/Photos/blob/main/NewScan.png"/> 
@@ -54,11 +54,11 @@ After the scan completes, click on the scan name to view the results, all the op
 
 <img src="https://github.com/nahid7474/Photos/blob/main/NewScan5.png"/> 
 
-Configure Second Scan: 
-Click on the "Scans" tab in the top menu bar and then click on "New Scan".
-Enter a name and optionally provide a description. 
-THis time the type of the scan is basic network scan. Choose the target as 10.0.2.15. 
-Click on the "Launch" button to start the scan.
+Configure Second Scan:  
+Click on the "Scans" tab in the top menu bar and then click on "New Scan".  
+Enter a name and optionally provide a description.  
+THis time the type of the scan is basic network scan. Choose the target as 10.0.2.15.  
+Click on the "Launch" button to start the scan.  
 
 <img src="https://github.com/nahid7474/Photos/blob/main/nessus10.png"/> 
 
